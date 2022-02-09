@@ -1,0 +1,67 @@
+*{
+  font-family: 'Indie Flower', cursive;
+  text-transform: capitalize;
+}
+body{
+padding: 0%;
+margin: 0%;
+height: 100vh;
+overflow-x: hidden;
+background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  font-size: 1.5rem;
+  display: flex;
+  gap: 3rem;
+
+}
+button{
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.507);
+  border: none;
+  box-shadow: black 0.5px 1.5px 5px;
+  font-size: 1.025rem;
+  height: 2rem;
+  margin-top: 1rem;
+  
+}
+input{
+  background-color: rgba(241, 238, 234, 0.425);
+  border-radius: 10px;
+  border: 0.5px solid black;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+button:hover{
+  background-color: rgba(0, 0, 0, 0.507);
+}
+input:focus{
+  outline: none;
+}
+.list-items{
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  gap: 2rem;
+  
+  
+}
+p{
+  text-decoration:underline ;
+  font-size: 1.5rem;
+}
+.donebtn{
+  text-decoration: line-through;
+  color: green;
+}
